@@ -3,13 +3,14 @@
 int main()
 
 {
-    int a,b,c,d,e,f;
+    int a,b,c,d;
+    float e,f;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
     scanf("%d",&d);
-    e=(b-a)^2 + (d-c)^2 ;
+    e=pow((b-a),2) + pow((d-c),2) ;
     f=sqrt(e);
-    printf("%d",f);
+    printf("%.2f",f);
         return 0;
 }
