@@ -10,6 +10,6 @@ int main()
     scanf("%d",&d);
     e=(b-a)^2 + (d-c)^2 ;
     f=sqrt(e);
-    printf("%d",e);
+    printf("%d",f);
         return 0;
 }
