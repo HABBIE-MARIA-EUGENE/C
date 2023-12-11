@@ -32,7 +32,7 @@ int main()
         printf("%d",z);
         }
         else 
-            printf("ivalid input");
+            printf("invalid input");
     
     return 0;
     
