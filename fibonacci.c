@@ -6,7 +6,7 @@ int main()
     printf("Enter the value of n to print the fibonacci series ");
     scanf("%d",&a);
     printf("%d\n%d\n",i[0],i[1]);
-    for (n=1;n<=a;n++)
+    for (n=3;n<=a;n++)
     { 
        
             f=i[0]+i[1];
