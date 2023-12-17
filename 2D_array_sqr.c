@@ -15,7 +15,8 @@ void opt(int r,int c,int m[r][c])
         for(int i=0;i<r;i++)
            { 
                for(int j=0;j<c;j++)
-                    printf("%d",m[i][j]);
+                    printf("%d ",m[i][j]);
+                    printf("\n");
            }
     }
 void res(int r, int c, int m[r][c])
@@ -27,7 +28,9 @@ void res(int r, int c, int m[r][c])
                 {   
                     m[i][j]=pow((m[i][j]),2);
                     printf("%d ",m[i][j]);
-                }    
+                    
+                }
+                printf("\n");
            } 
     }
 int main()
