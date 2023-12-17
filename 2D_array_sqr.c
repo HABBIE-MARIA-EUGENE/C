@@ -21,16 +21,13 @@ void opt(int r,int c,int m[r][c])
     }
 void res(int r, int c, int m[r][c])
     {
-       printf("\nthe squared values of the matrix are :\n");
+
         for(int i=0;i<r;i++)
            { 
                for(int j=0;j<c;j++)
                 {   
                     m[i][j]=pow((m[i][j]),2);
-                    printf("%d ",m[i][j]);
-                    
                 }
-                printf("\n");
            } 
     }
 int main()
@@ -43,6 +40,8 @@ int main()
     elem(r,c,m);
     opt(r,c,m);
     res(r,c,m);
+    printf("After squaring ");
+    opt(r,c,m);
 
     return 0;
 }
