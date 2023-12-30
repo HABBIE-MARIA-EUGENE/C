@@ -32,10 +32,9 @@ void res(int r, int c, int m[r][c])
     }
 int main()
 {
-    printf("enter the number of rows and columns of the matrix\n");
+    printf("enter the size of the matrix\n");
     int r,c;
-    scanf("%d",&r);
-    scanf("%d",&c);
+    scanf("%d%*c%d",&r,&c);
     int m[r][c];
     elem(r,c,m);
     opt(r,c,m);
